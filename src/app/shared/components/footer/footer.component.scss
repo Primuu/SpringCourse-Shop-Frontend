@@ -1,5 +1,31 @@
+@import '../../../../variables.scss';
+
 :host{
-    background: #999;
-    padding: 20px;
+    background: $dark_gray;
+    padding: 10px;
     flex-direction: column;
+    color: #aaa;
+}
+
+.footerManu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.categories button {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 10px;
+    color: #aaa;
+}
+
+.footerCopy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }

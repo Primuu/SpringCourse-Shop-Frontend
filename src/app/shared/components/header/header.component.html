@@ -1,10 +1,13 @@
 <header class="header">
     <div class="logo">
-        Logo
+        <mat-icon color="accent" class="logoIcon">store</mat-icon>
+        <span class="title">{{title}}</span>
     </div>
-    <div>
-        <button routerLink="">Home</button>
-        <button routerLink="/products">Products</button>
-        <button routerLink="/login">Log in</button>
+    <div class="container">
+        <button mat-button color="accent" routerLink="">Home</button>
+        <button mat-button color="accent" routerLink="/products">Products</button>
+        <span></span>
+        <button mat-button color="accent" routerLink="/login">Log in</button>
+        <mat-icon class="basketIcon">shopping_basket</mat-icon>
     </div>
 </header>

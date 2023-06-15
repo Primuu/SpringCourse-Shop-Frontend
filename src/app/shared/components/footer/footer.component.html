@@ -1,1 +1,25 @@
-<footer>Footer</footer>
+<div class="footerManu">
+    <div class="categories">
+        <button mat-button [matMenuTriggerFor]="aboveMenu">Category</button>
+        <mat-menu #aboveMenu="matMenu" yPosition="above">
+            <button mat-menu-item>Category 1</button>
+            <button mat-menu-item>Category 2</button>
+            <button mat-menu-item>Category 3</button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="aboveMenu">About</button>
+        <mat-menu #aboveMenu="matMenu" yPosition="above">
+            <button mat-menu-item>Company 1</button>
+            <button mat-menu-item>Company 2</button>
+            <button mat-menu-item>Company 3</button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="aboveMenu">Help</button>
+        <mat-menu #aboveMenu="matMenu" yPosition="above">
+            <button mat-menu-item>Help 1</button>
+            <button mat-menu-item>Help 2</button>
+            <button mat-menu-item>Help 3</button>
+        </mat-menu> 
+    </div>
+</div>
+<div class="footerCopy">
+Copy &copy; Shop 2023 All rights reserved.
+</div>
