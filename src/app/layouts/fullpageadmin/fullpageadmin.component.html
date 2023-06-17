@@ -1,18 +1,16 @@
 <header class="header">
     <div class="logo">
-        Logo
-    </div>
-    <div>
-        <button routerLink="">Link</button>
-        <button routerLink="">Link</button>
-        <button routerLink="">Link</button>
+        <mat-icon color="accent" class="logoIcon">store</mat-icon>
+        <span class="title">Shop Panel</span>
     </div>
 </header>
 <div class="container">
     <div class="sidebar">
-        <div>
-            Sidebar
-        </div>
+        <mat-selection-list [multiple]="false" [hideSingleSelectionIndicator]="true">
+            <mat-list-option><a routerLink="/admin">Dashboard</a></mat-list-option>
+            <mat-list-option><a routerLink="/admin">Products</a></mat-list-option>
+            <mat-list-option><a routerLink="/admin">Link</a></mat-list-option>
+        </mat-selection-list>
     </div>
     <div class="content">
         <router-outlet></router-outlet>
