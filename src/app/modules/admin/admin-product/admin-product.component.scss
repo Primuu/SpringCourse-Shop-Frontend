@@ -9,3 +9,10 @@
 .mat-column-actions {
     width: 140px;
 }
+
+.products-header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 5px;
+}

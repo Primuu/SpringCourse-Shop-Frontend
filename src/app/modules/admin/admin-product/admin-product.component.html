@@ -1,4 +1,9 @@
-<h1>Products</h1>
+<div class="products-header">
+    <h1>
+        Products
+    </h1>
+    <button mat-raised-button color="accent" routerLink="/admin/products/add">Add product<mat-icon>add</mat-icon></button>
+</div>
 <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
 
     <ng-container matColumnDef="id">
