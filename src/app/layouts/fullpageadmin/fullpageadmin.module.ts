@@ -5,17 +5,21 @@ import { AdminComponent } from 'src/app/modules/admin/admin.component';
 import { RouterModule } from '@angular/router';
 import { MaterialModule } from 'src/app/shared/material.module';
 import { AdminProductComponent } from 'src/app/modules/admin/admin-product/admin-product.component';
+import { AdminProductUpdateComponent } from 'src/app/modules/admin/admin-product-update/admin-product-update.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     FullpageadminComponent,
     AdminComponent,
-    AdminProductComponent
+    AdminProductComponent,
+    AdminProductUpdateComponent
   ],
   imports: [
     CommonModule,
     RouterModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule
   ]
 })
 export class FullpageadminModule { }
