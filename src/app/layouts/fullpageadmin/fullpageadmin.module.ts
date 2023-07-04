@@ -9,6 +9,7 @@ import { AdminProductUpdateComponent } from 'src/app/modules/admin/admin-product
 import { ReactiveFormsModule } from '@angular/forms';
 import { AdminProductAddComponent } from 'src/app/modules/admin/admin-product-add/admin-product-add.component';
 import { AdminProductFormComponent } from 'src/app/modules/admin-product-form/admin-product-form.component';
+import { AdminMessageComponent } from 'src/app/modules/admin/admin-message/admin-message.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AdminProductFormComponent } from 'src/app/modules/admin-product-form/ad
     AdminProductComponent,
     AdminProductUpdateComponent,
     AdminProductAddComponent,
-    AdminProductFormComponent
+    AdminProductFormComponent,
+    AdminMessageComponent
   ],
   imports: [
     CommonModule,
