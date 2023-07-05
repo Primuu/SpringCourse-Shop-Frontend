@@ -1,0 +1,35 @@
+.dialogContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+}
+
+.dialog {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.button {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+span {
+    display: flex;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.closeButton {
+    margin-top: -10px;
+    margin-right: -10px;
+}

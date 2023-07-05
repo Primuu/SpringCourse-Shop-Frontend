@@ -1,0 +1,12 @@
+<div class="dialogContainer">
+    <div class="dialog">
+        <span>{{data.message}}</span>
+        <button mat-icon-button class="closeButton" [mat-dialog-close]="false">
+            <mat-icon>close</mat-icon>
+        </button>
+    </div>
+    <div class="buttons">
+        <button mat-raised-button class="button" [mat-dialog-close]="false">Cancel</button>
+        <button mat-raised-button class="button" color="warn" [mat-dialog-close]="true">Confirm</button>
+    </div>
+</div>

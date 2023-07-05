@@ -51,11 +51,11 @@ import { FormGroup } from "@angular/forms";
                 <div *ngIf="price?.errors?.['required']">
                     Price is required
                 </div>
-                <div *ngIf="price?.errors?.['min']">
-                    Price must be greater than 0
-                </div>
                 <div *ngIf="price?.errors?.['pattern']">
                     Price must be  number
+                </div>
+                <div *ngIf="price?.errors?.['min']">
+                    Price must be greater than 0
                 </div>
             </div>
         </mat-form-field>
