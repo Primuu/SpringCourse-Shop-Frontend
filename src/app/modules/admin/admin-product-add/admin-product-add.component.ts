@@ -28,7 +28,8 @@ export class AdminProductAddComponent implements OnInit{
       description: ['', [Validators.required, Validators.minLength(4)]],
       category: ['', [Validators.required, Validators.minLength(4)]],
       price: ['', [Validators.required, Validators.min(0), Validators.pattern(/^-?\d*\.?\d*$/)]],
-      currency: ['USD', Validators.required]
+      currency: ['USD', Validators.required],
+      slug: ['', [Validators.required, Validators.minLength(4)]]
     })
   }
 

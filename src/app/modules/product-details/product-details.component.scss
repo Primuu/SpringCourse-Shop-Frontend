@@ -1,0 +1,36 @@
+@import "../../../variables.scss";
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.description{
+    margin-top:20px;
+    margin-bottom: 25px;
+}
+.price{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: $warn;
+}
